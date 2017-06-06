@@ -1,0 +1,139 @@
+/* Default CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover {
+    text-decoration: none; 
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.single-boxed-item{background-image: url(../img/img-1.jpg);}
+.box-bg-2{background-image: url(../img/img-2.jpg);}
+.box-bg-3{background-image: url(../img/img-3.jpg);}
+.box-bg-4{background-image: url(../img/img-4.jpg);}
+.box-bg-5{background-image: url(../img/img-5.jpg);}
+.section-padding{
+    padding: 40px 0;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title h2 {
+  text-transform: uppercase;
+  font-size: 42px;
+}
+.section-title p {
+  font-size: 18px;
+}
+.single-boxed-item{
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 600px;
+    position: relative;
+}
+.single-boxed-item{
+
+}
+.row.nopadding .col-md-4{
+    padding: 0;
+}
+.row.nopadding{
+
+    margin: 0;
+}
+.boxed-item-hover{
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: 5%;
+    width: 90%;
+    height: 86%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    transform: translateY(30px);
+}
+.boxed-item-hover:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #333;
+    opacity: .7;
+    z-index: -1;
+    transition: .3s;
+}
+.single-boxed-item:hover .boxed-item-hover{
+    opacity: 1;
+    visibility: visible;
+     transform: translateY(0);
+}
+.boxed-item-table{
+    
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.boxed-item-table-cell{
+    
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.large-img{
+    display: inline-block;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color:#3498db; 
+}
+.boxed-item-hover h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.boxed-item-hover p {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.single-boxed-item.half-size{
+    height: 300px;
+}
