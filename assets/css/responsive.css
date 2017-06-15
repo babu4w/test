@@ -9,13 +9,89 @@
 
 }
 /* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) { 
-
-	
+@media only screen and (max-width: 479px) { 
+	.welcome-area{
+		height: auto;
+	}
+	.hero-area-table{
+		display: block;
+		height: auto;
+	}
+	.logo{
+		margin-bottom: 20px;
+	}
+	.logo,
+	.mainmenu{
+		text-align: center;
+	}
+	.copyright-area{
+		position: relative;
+	}
+	.copyright-area,.copyright-area ul{
+		text-align: center;
+	}
+	.copyright-area li{
+		margin-top: 15px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.hero-text{
+		padding-top: 150px;
+		padding-bottom: 50px;
+	}
+	.hero-text h1{
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 40px;
+	}
+	.hero-text p{
+    font-size: 16px;
+    line-height: 28px;
+	}
+	.email-subscribe-form p{
+    font-size: 14px;
+	}
+	.email-subscribe-form input[type="email"]{
+ 	width: 100%;
+    margin-bottom: 25px;
+	}
+	.email-subscribe-form button[type="submit"]{
+    margin-bottom: 15px;
+    width:  100%;
+	}
 
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
-
+	.welcome-area{
+		height: auto;
+	}
+	.hero-area-table{
+		display: block;
+		height: auto;
+	}
+	.logo{
+		margin-bottom: 20px;
+	}
+	.logo,
+	.mainmenu{
+		text-align: center;
+	}
+	.copyright-area{
+		position: relative;
+	}
+	.copyright-area,.copyright-area ul{
+		text-align: center;
+	}
+	.copyright-area li{
+		margin-top: 15px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.hero-text{
+		padding-top: 150px;
+		padding-bottom: 50px;
+	}
+}
 
 }
